@@ -5,13 +5,12 @@ on:
   push:
     branches: [main]
   # trigger deployment manually
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   docs:
-    runs-on: 
-      - self-hosted
-      - vuepress
+    runs-on: self-hosted
+
 
     steps:
       - uses: actions/checkout@v4
