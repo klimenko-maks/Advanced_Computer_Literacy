@@ -24,6 +24,10 @@ jobs:
           # choose node.js version to use
           node-version: '20'
   
+      # install yarn    
+      - name: Setup yarn
+        run: npm install -g yarn
+
       # cache node_modules
       - name: Cache dependencies
         uses: actions/cache@v2
