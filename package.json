@@ -1,0 +1,40 @@
+{
+  "name": "code-monkeys-blog",
+  "version": "1.0.0",
+  "description": "Learn How to Code Like a Monkey by Checking Out the Code Monkeys Blog Theme!!!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codemonkeysio/code-monkeys-blog.git"
+  },
+  "author": {
+    "name": "Jay the Code Monkey",
+    "email": "c0dem0nkeys@pm.me",
+    "url": "https://codemonkeys.tech/"
+  },
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "svgo": "vuepress svgo docs"
+  },
+  "devDependencies": {
+    "@goy/vuepress-plugin-svg-icons": "^4.2.3",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-blog": "^1.9.4",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-feed1": "^1.31.0-beta.1",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mermaidjs": "^1.8.1",
+    "vuepress-plugin-redirect-frontmatter": "^1.0.0"
+  },
+  "dependencies": {
+    "@adamdehaven/vuepress-plugin-custom-tooltip": "^1.4.3",
+    "@vssue/api-github-v4": "^1.4.7",
+    "dotenv": "^10.0.0",
+    "rfs": "^9.0.4",
+    "v-lazy-image": "^2.0.1",
+    "vue-clipboard2": "^0.3.1",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}

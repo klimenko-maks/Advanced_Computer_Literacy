@@ -1,0 +1,301 @@
+/**
+ * Custom palette here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/zh/config/#palette-styl
+ */
+
+@import '~rfs/stylus'
+@import './external-links.styl'
+@import './custom-containers.styl'
+@import './emoji-wrapping.styl'
+@import './posts.styl'
+@import './post.styl'
+@import './inline-code-blocks.styl'
+@import './flow-charts.styl'
+@import './pagination.styl'
+@import './vue-container.styl'
+@import './github-style-tables.styl'
+@import './badges.styl'
+@import './contact.styl'
+
+
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+$badgeTipColor = #42b983
+$badgeWarningColor = darken(#ffe564, 35%)
+$badgeErrorColor = #DA5961
+// from cources
+$darkBorderColor = #b7e4c7
+
+// Import Montserrat font
+//@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+
+
+h1
+  rfs-font-size(2.5rem)
+
+h2
+  rfs-font-size(2.25rem)
+  border-bottom: 0.125rem solid $borderColor
+
+h3
+  rfs-font-size(2rem)
+
+h4
+  rfs-font-size(1.75rem)
+
+h5
+  rfs-font-size(1.5rem)
+
+p, span, li, button, th, td, .pagination
+  rfs-font-size(1.25rem)
+
+a
+  display: inline-block
+
+.sidebar-heading > span
+  rfs-font-size(1.1875rem)
+
+.sidebar-group-items > li
+  rfs-font-size(1.15625rem)
+
+.sidebar-sub-headers > li
+  rfs-font-size(1.125rem)
+
+.theme-code-group__li
+  rfs-font-size(1.625rem)
+
+.theme-code-block
+  rfs-font-size(1.4375rem)
+
+.no-wrap-icons, .wrap-icons
+  rfs-font-size(2rem)
+
+.no-wrap-icons > a:not(:last-child)
+  rfs-margin-right(4.6875rem)
+
+html {
+//  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #44bb6a;
+}
+
+html
+  background-color: $backgroundColor
+  body
+    background-color: $backgroundColor
+    @media (max-width: 61.25rem)
+      .page
+        padding-left: 0
+    @media (max-width: 61.25rem)
+      .theme-container.sidebar-open
+        .sidebar
+          transform: translateX(0)
+    @media (min-width: 53.1875rem)
+      .theme-container.no-sidebar .sidebar
+        display: block
+    @media (min-width: 61.3125rem)
+      .theme-container.no-sidebar .sidebar
+        display: none
+    .theme-container
+      min-height: calc(100vh - 10.8125rem)
+      @media (max-width: 61.25rem)
+        .sidebar
+          top: 0
+          padding-top: 3.6rem
+          transform: translateX(-100%)
+          transition: transform .2s ease
+          .nav-links
+            display: block
+      .navbar
+        display: flex
+        align-items: center
+        height: 4.5rem
+        background-color: $backgroundColor
+        border-bottom-width: 0.125rem
+        .sidebar-button
+          margin-top: 0.375rem
+        .site-name
+          rfs-font-size(1.5rem)
+        .links
+          background-color: transparent
+          height: 3rem
+          align-items: center
+          .search-box
+            margin-right: 1.5rem
+            input
+              rfs-font-size(1.125rem)
+              background-color: transparent
+              border-width: 0.125rem
+              color: $textColor
+            .suggestions
+              background-color: $backgroundColor
+              border: 0.125rem solid $borderColor
+              .suggestion
+                &.focused
+                  background-color $backgroundColor
+          @media (max-width: 61.25rem)
+            .search-box
+              margin-right: 0
+              input
+                left 0
+              .suggestions
+                left: initial
+          @media (max-width: 66.5rem)
+           .search-box
+             input
+              cursor: pointer;
+              width: 0;
+              border-color: transparent;
+              position: relative;
+            .search-box input:focus
+              cursor: text
+              left: 0
+              width: 10rem
+              border-color: $accentColor
+          @media (max-width: 22rem)
+            .search-box input:focus
+              width: 8rem
+          @media (max-width: 19.9375rem)
+            .search-box input:focus
+              width: 6rem
+          @media (max-width: 18rem)
+            .search-box input:focus
+              width: 5.5rem
+          @media (max-width: $MQNarrow) and (min-width: 61.25rem)
+            .search-box
+              .suggestions
+                left 0
+          @media (max-width: 61.25rem)
+            .search-box
+              margin-right 0
+              input
+                left 1rem
+              .suggestions
+                right 0
+          .nav-links
+            rfs-font-size(1.25rem)
+            .nav-item:first-child
+              margin-left: 0
+            .nav-item
+              margin-left: 1.75rem
+              a:not(.external).router-link-active
+                border-bottom: 0
+              .dropdown-title
+                rfs-font-size(1.25rem)
+              .nav-dropdown
+                text-align: center
+                background-color: $backgroundColor
+                border: 0.125rem solid $borderColor
+                padding: 0.8rem 0
+                .dropdown-item
+                  padding-bottom: 0.4rem
+                  a:first-child
+                    color: inherit
+                    &.router-link-active::after
+                      border-left: 0
+                    &.router-link-active
+                      color: $accentColor
+                    &.router-link-active::after
+                      border-left: 0.3125rem solid $accentColor
+                  h4
+                    rfs-font-size(1.25rem)
+                    border-top: 0.0625rem solid $borderColor
+                    cursor: text
+                    margin: 0.45rem 0.375rem 0
+                  a:hover
+                    color: $accentColor
+                  a.router-link-active::after
+                    left: 0.75rem
+            .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active
+              border-bottom: 0.125rem solid #44bb6a
+      .sidebar
+        background-image: linear-gradient(90deg, $backgroundColorTwo, $backgroundColor)
+        border-right: 0.125rem solid $borderColor
+        .nav-links
+          border-bottom: 0
+          .nav-item:first-child
+            margin-top: 1.15rem
+            a
+              color: inherit
+              &:hover, &.router-link-active
+                color: $accentColor
+          .nav-item
+            .nav-link
+              rfs-font-size(1.1875rem)
+            .mobile-dropdown-title
+              rfs-font-size(1.1875rem)
+            .dropdown-item
+              a:first-child
+                color: inherit
+                &.router-link-active::after
+                  border-left: 0
+                &.router-link-active
+                  color: $accentColor
+                &.router-link-active::after
+                  border-left: 0.3125rem solid $accentColor
+              a
+                rfs-font-size(1.15625rem)
+                &:hover
+                  color: $accentColor
+              h4
+                rfs-font-size(1.15625rem)
+              .dropdown-subitem > a
+                rfs-font-size(1.15625rem)
+      .home
+        padding: 5rem 0 0
+        .hero
+          margin-left: 2rem
+          margin-right: 2rem
+          /* border: 0.125rem solid $darkBorderColor */
+          /* box-shadow: 0 0.5rem 1em 0 $darkBorderColor */
+          /* transition: box-shadow 0.2s */
+          border-radius: 5.625rem
+          margin-bottom: 0.625rem
+          background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
+          padding: 2rem
+          .v-lazy-image-loaded
+            transition: transform 0.2s, filter 0.7s
+          h1
+            rfs-font-size(3rem)
+          .description
+            rfs-font-size(1.6rem)
+          .action-button
+            rfs-font-size(1.2rem)
+        .hero:hover
+          box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
+          img
+            transform: scale(1.3)
+        .features
+          margin-left: 2rem
+          margin-right: 2rem
+          border-top: 0.125rem solid $borderColor
+          border-bottom: 0.125rem solid $borderColor
+          .feature
+            text-align: center
+            h2
+              rfs-font-size(1.4rem)
+
+      @media (max-width: 44.9375rem)
+        .home
+          .hero
+            border-radius: 3.75rem
+      @media (max-width: 26.1875rem)
+        .home
+          .hero
+            border-radius: 2.8125rem
