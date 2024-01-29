@@ -119,21 +119,6 @@ module.exports = {
         property: 'og:site_name',
         content: 'KPKU_Advanced'
       }
-    ],
-    [
-      'link',
-      {
-        href: '//codefence.io/codefence.css',
-        rel: 'stylesheet'
-      }
-    ],
-    [
-      'script',
-      {
-        defer: '',
-        type: 'text/javascript',
-        src: '//codefence.io/codefence.js'
-      }
     ]
   ],
   markdown: {
@@ -143,9 +128,9 @@ module.exports = {
     domain: 'https://klimenko-maks.github.io/',
     defaultAuthor: 'M.Klimenko',
     allPostsDescription:
-      "Here's all of the posts we've made so far! Find a post that peeks your interest and start monkeying around! 📝🐒",
+      "Углубляемся в узучение тем 📝",
     topicsDescription:
-      "Here you can view the various topics we've covered so far! Find a topic that interests you and start learning and coding today! Be sure to grab a banana! 🍌",
+      "Учимся, что бы компьютер стал надежным помошником, который помогает ннам экономить время! А не растрачивать его",
     logo: '/img/logo-sota-trim.png',
     nav: [
       {

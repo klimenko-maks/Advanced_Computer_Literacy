@@ -8,7 +8,7 @@
         <v-lazy-image
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
-          src-placeholder="/img/home-img2.svg"
+          src-placeholder="/img/home-img.svg"
           :alt="data.heroAlt || 'hero'"
         />
       </div>
