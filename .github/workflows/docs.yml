@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # choose node.js version to use
-          node-version: '20'
+          node-version: '18'
   
       # install yarn    
       - name: Setup yarn

@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemonkeysio/code-monkeys-blog.git"
+    "url": "git@github.com:klimenko-maks/Advanced_Computer_Literacy.git"
   },
   "author": {
-    "name": "Jay the Code Monkey",
-    "email": "c0dem0nkeys@pm.me",
-    "url": "https://codemonkeys.tech/"
+    "name": "Advanced_Computer_Literacy",
+    "email": "airsvarog+github@gmail.com",
+    "url": "https://klimenko-maks.github.io/Advanced_Computer_Literacy/"
   },
   "license": "GPL-3.0-or-later",
   "scripts": {
