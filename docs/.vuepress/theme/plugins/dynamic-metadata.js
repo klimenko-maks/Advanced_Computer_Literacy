@@ -49,19 +49,7 @@ module.exports = (options = {}, ctx) => ({
         { property: 'og:image:alt', content: metadata.linkImgAlt },
         { property: 'og:url', content: metadata.url },
         { property: 'og:description', content: metadata.description },
-        { property: 'og:site_name', content: 'Code Monkeys' },
-
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: metadata.title },
-        { name: 'twitter:description', content: metadata.description },
-        { name: 'twitter:url', content: metadata.url },
-        { name: 'twitter:site', content: '@codemonkeystech' },
-        {
-          name: 'twitter:image',
-          content: metadata.linkImg
-        },
-        { name: 'twitter:image:alt', content: metadata.linkImgAlt },
-        { name: 'twitter:creator', content: '@codemonkeystech' }
+        { property: 'og:site_name', content: 'Advanced_Computer_Literacy' },
       ]
     }
 
