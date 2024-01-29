@@ -3,7 +3,7 @@ const topicDetails = require('./data/config/blog/topics-page-details')
 
 module.exports = {
   lang: 'ru-RU',
-  base: '/',
+  base: '/Advanced_Computer_Literacy/',
   title: 'Расширенный курс компютерной грамотности',
   description:
     'Школа для тех, кому нужны реальные навыки, а не просто сертификат. Бесплатные онлайн курсы компьютера. Пошаговые уроки для начинающих пользователей любого возраста и уровня подготовки.',
@@ -72,20 +72,6 @@ module.exports = {
     [
       'meta',
       {
-        name: 'msapplication-TileColor',
-        content: '#1f2229'
-      }
-    ],
-    [
-      'meta',
-      {
-        name: 'msapplication-TileImage',
-        content: '/mstile-144x144.png'
-      }
-    ],
-    [
-      'meta',
-      {
         name: 'theme-color',
         content: '#3eaf7c'
       }
@@ -117,20 +103,6 @@ module.exports = {
         property: 'og:image',
         content:
           '/img/logo-sota-trim.png'
-      }
-    ],
-    [
-      'meta',
-      {
-        property: 'og:image:alt',
-        content: 'Code Monkeys Blog Open Graph Image'
-      }
-    ],
-    [
-      'meta',
-      {
-        property: 'og:url',
-        content: 'https://codemonkeys.tech'
       }
     ],
     [
