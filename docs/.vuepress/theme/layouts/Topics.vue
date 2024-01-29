@@ -125,6 +125,7 @@ export default {
     border: 0.125rem solid $darkBorderColor
     // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
     box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBorderColor
+    transition: 0.2s
     .logo
       transform: scale(1.1)
 

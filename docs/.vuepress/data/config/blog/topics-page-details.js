@@ -33,4 +33,7 @@ module.exports = {
       alt: 'VideoEdit Topic Logo'
     }
   ]
+  // .slice().sort((a, b) => {
+  //   return a.title.localeCompare(b.title);
+  // }),
 }
