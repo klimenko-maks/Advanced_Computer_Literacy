@@ -9,7 +9,7 @@
         :src="$withBase(`${$site.themeConfig.logo}`)"
         :src-placeholder="
           $withBase(
-            '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo-35w.png'
+            '/img/logo-sota-trim.png'
           )
         "
         :alt="`${$siteTitle} Head and Shoulders Logo`"
