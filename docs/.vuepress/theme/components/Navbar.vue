@@ -9,7 +9,7 @@
         :src="$withBase(`${$site.themeConfig.logo}`)"
         :src-placeholder="
           $withBase(
-            '/img/logo-sota-trim.png'
+            '/img/logo-sota-trim32.png'
           )
         "
         :alt="`${$siteTitle} Head and Shoulders Logo`"

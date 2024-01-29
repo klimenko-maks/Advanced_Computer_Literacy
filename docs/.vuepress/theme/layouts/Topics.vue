@@ -85,8 +85,8 @@ export default {
   .topic-card
     display: flex
     align-items: center
-    border: 0.125rem solid $darkBorderColor
-    box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
+    // border: 0.125rem solid $darkBorderColor
+    // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
     transition: 0.2s
     border-radius: 1.875rem
     margin-top: 3.5rem
@@ -122,7 +122,9 @@ export default {
         transition: filter 0.7s
         filter: blur(0)
   .topic-card:hover
-    box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBoxShadowColor
+    border: 0.125rem solid $darkBorderColor
+    // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
+    box-shadow: 0.125rem 0.5rem 1rem 0.125rem $darkBorderColor
     .logo
       transform: scale(1.1)
 
