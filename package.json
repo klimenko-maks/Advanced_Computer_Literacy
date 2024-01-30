@@ -1,7 +1,7 @@
 {
-  "name": "code-monkeys-blog",
+  "name": "Advanced-Computer-Literacy",
   "version": "1.0.0",
-  "description": "Learn How to Code Like a Monkey by Checking Out the Code Monkeys Blog Theme!!!",
+  "description": "Advanced course after basic PC user with experience",
   "main": "index.js",
   "repository": {
     "type": "git",
