@@ -51,7 +51,27 @@ export default {
 
   created() {
     this.topicsList = this.$topics.list;
-    this.topicsList.sort((a, b) => (a.name > b.name ? 1 : -1));
+    // console.log('Names before sorting:', this.topicsList.map(topic => topic.name));
+    // this.topicsList.sort((a, b) => (a.name > b.name ? 1 : -1));
+    // console.log('Names after sorting:', this.topicsList.map(topic => topic.name));
+     // Log names before sorting
+
+    // Log names before swapping
+    // console.log('Names before swapping:', this.topicsList.map(topic => topic.name));
+
+    // Swap the order of the first two entries
+    const temp = this.topicsList[0];
+    this.topicsList[0] = this.topicsList[1];
+    this.topicsList[1] = temp;
+
+    // Log names after swapping
+    // console.log('Names after swapping:', this.topicsList.map(topic => topic.name));
+
+    // Sort the remaining entries while keeping the first two unchanged
+    this.topicsList = [...this.topicsList.slice(0, 2), ...this.topicsList.slice(2).sort((a, b) => (a.name > b.name ? 1 : -1))];
+
+    // Log names after sorting the remaining entries
+    // console.log('Names after sorting the remaining entries:', this.topicsList.map(topic => topic.name));
   },
 
   computed: {

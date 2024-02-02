@@ -1,20 +1,20 @@
 module.exports = {
   topicsPageDetails: [
     {
-      title: 'Excel',
-      summary:
-        'Основные понятия, формулы, вычисления. Обрабатываем, результаты анкетирования. Сводные таблицы. Визуализация данных',
-      logo: 'excel/topic/Excel_2.png',
-      placeholder: 'excel/topic/Excel_2-prev.png',
-      alt: 'Excel Topic Logo'
-    },
-    {
       title: 'GoogleForms',
       summary:
         "Учимся планировать опрос, выбирать целеву группу, правильно подбирать наиболее подходящую тип данных для вопроса, проверять вводимые данные, ограничивать доступ к опросу и много другое!",
       logo: 'googleforms/topic/google-forms-png.png',
       placeholder: 'googleforms/topic/google-forms-prev-png.png',
       alt: 'GoogleForms Topic Logo'
+    },
+    {
+      title: 'Excel',
+      summary:
+        'Основные понятия, формулы, вычисления. Обрабатываем, результаты анкетирования. Сводные таблицы. Визуализация данных',
+      logo: 'excel/topic/Excel_2.png',
+      placeholder: 'excel/topic/Excel_2-prev.png',
+      alt: 'Excel Topic Logo'
     },
     {
       title: 'Powerpoint',
@@ -33,7 +33,7 @@ module.exports = {
       alt: 'VideoEdit Topic Logo'
     }
   ]
-  // .slice().sort((a, b) => {
+  // .sort((a, b) => {
   //   return a.title.localeCompare(b.title);
-  // }),
+  // })
 }

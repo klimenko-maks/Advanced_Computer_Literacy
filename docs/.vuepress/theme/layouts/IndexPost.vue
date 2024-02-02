@@ -100,6 +100,7 @@ export default {
 
   computed: {
     allPosts() {
+      // this.topicHeaders.sort((a, b) => (a.title > b.title ? 1 : -1));
       return this.$route.path.includes('/posts/');
     }
   },
@@ -116,6 +117,15 @@ export default {
           }
         }
       }
+    }
+  },
+
+  // try to sort post from older to newers
+  methods: {
+    // Add a method to change the sort order
+    changeSortOrder() {
+      // For example, sort alphabetically by title
+      this.topicHeaders.sort((b, a) => (a.title > b.title ? 1 : -1));
     }
   }
 };
