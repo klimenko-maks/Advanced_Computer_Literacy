@@ -179,6 +179,7 @@ module.exports = {
     'vuepress-plugin-mathjax',
     'mermaidjs',
     'redirect-frontmatter',
+    '@vuepress/medium-zoom',
     [
       'vuepress-plugin-container',
       {
