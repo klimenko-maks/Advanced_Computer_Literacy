@@ -148,7 +148,7 @@ export default {
     align-items: center
     margin-top: 3.5rem
     padding: 0 2rem
-    // border: 0.125rem solid $darkBorderColor
+    border: 0.125rem solid transparent
     // border-radius: 1.875rem
     // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
     transition: 0.2s
