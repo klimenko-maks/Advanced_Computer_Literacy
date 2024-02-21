@@ -106,15 +106,17 @@ export default {
     display: flex
     align-items: center
     // border: 0.125rem solid $darkBorderColor
+    border: 0.125rem solid transparent
     // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
+    padding: 0 2rem; // Прозрачный padding
     transition: 0.2s
     border-radius: 1.875rem
     margin-top: 4rem
-    // padding: 0 1rem
-    padding-top: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
+    padding: 0 2rem
+    // padding-top: 1rem;
+    // padding-right: 2rem;
+    // padding-bottom: 1rem;
+    // padding-left: 2rem;
     background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
     cursor: pointer
     .title-and-summary
@@ -138,6 +140,7 @@ export default {
       padding-left: 1.125rem
       padding-bottom: 1.125rem
       transition: transform 0.2s
+      will-change: transform
       .v-lazy-image
         filter: blur(0.375rem)
         will-change: filter

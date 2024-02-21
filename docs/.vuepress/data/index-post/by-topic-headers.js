@@ -6,15 +6,15 @@ export default {
     },
     'GoogleForms': {
       description: 'Учимся работать с GoogleForms',
-      descriptionEmoji: '📑🪧'
+      descriptionEmoji: '📑 🪧'
     },
     'Powerpoint': {
       description: 'Powerpoint визуализируем полученные результаты',
-      descriptionEmoji: '🎨📈'
+      descriptionEmoji: '🎨 📈'
     },
     'VideoEdit': {
       description: 'Учимся редактировать короткие видеоролики',
-      descriptionEmoji: '🎥🎬'
+      descriptionEmoji: '🎥 🎬'
     }
   }
 }
