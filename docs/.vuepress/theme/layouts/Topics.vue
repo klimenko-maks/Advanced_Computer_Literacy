@@ -109,8 +109,12 @@ export default {
     // box-shadow: 0 0.5rem 1rem 0 $darkBorderColor
     transition: 0.2s
     border-radius: 1.875rem
-    margin-top: 3.5rem
-    padding: 0 2rem
+    margin-top: 4rem
+    // padding: 0 1rem
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
     background-image: radial-gradient(circle at center center, $backgroundColorThree, $backgroundColor)
     cursor: pointer
     .title-and-summary
