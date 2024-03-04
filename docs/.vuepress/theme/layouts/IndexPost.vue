@@ -94,7 +94,7 @@ export default {
 
   data() {
     return {
-      topicHeaders: byTopicHeaders.topicHeaders
+      topicHeaders: byTopicHeaders.topicHeaders,
     };
   },
 
@@ -102,8 +102,17 @@ export default {
     allPosts() {
       // this.topicHeaders.sort((a, b) => (a.title > b.title ? 1 : -1));
       return this.$route.path.includes('/posts/');
+    },
+    sortedPosts() {
+      return this.topicHeaders.sort((a, b) => {
+        const dateA = new Date(a.frontmatter.date);
+        const dateB = new Date(b.frontmatter.date);
+        console.log(dateA - dateB);
+        return dateA - dateB;
+      });
     }
   },
+
 
   watch: {
     $route: {
@@ -125,10 +134,11 @@ export default {
     // Add a method to change the sort order
     changeSortOrder() {
       // For example, sort alphabetically by title
-      this.topicHeaders.sort((b, a) => (a.title > b.title ? 1 : -1));
+      this.topicHeaders.sort((a, b) => (a.title > b.title ? 1 : -1));
     }
   }
 };
+
 </script>
 
 <style lang="stylus" scoped>
