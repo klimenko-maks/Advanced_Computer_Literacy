@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/home-img3.svg
-heroText: "Давайте учиться вместе!"
+heroText: "Курс лекций"
 tagline: Расширенный курс лекций компютерной грамотности
 actionText: Темы курса →
 actionLink: /topics/
