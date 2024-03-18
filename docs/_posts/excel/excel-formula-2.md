@@ -17,7 +17,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 
 ::: slot header
 
-# Excel Формулы и сводные таблицы
+# Excel Сводные таблицы и графики
 
 :::
 
@@ -229,7 +229,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/11-povit-menu-2.png')"
-      :src-placeholder="$withBase('/images/excel/11-povit-menu-2-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/11-povit-menu-2-prev.png')"
       alt="povit table menu"
   />
 </div>
@@ -239,7 +239,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/12-povit-list.png')"
-      :src-placeholder="$withBase('/images/excel/12-povit-list-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/12-povit-list-prev.png')"
       alt="povit table menu"
   />
 </div>
@@ -251,7 +251,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/povit-string.gif')"
-      :src-placeholder="$withBase('/images/excel/povit-string.gif')"
+      :src-placeholder="$withBase('/images/excel/02/povit-string.gif')"
       alt="povit string"
   />
 </div>
@@ -261,7 +261,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/13-povit-region.png')"
-      :src-placeholder="$withBase('/images/excel/13-povit-region-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/13-povit-region-prev.png')"
       alt="povit region"
   />
 </div>
@@ -271,7 +271,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/povit-value.gif')"
-      :src-placeholder="$withBase('/images/excel/povit-value.gif')"
+      :src-placeholder="$withBase('/images/excel/02/povit-value.gif')"
       alt="povit value"
   />
 </div>
@@ -281,7 +281,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/14-povit-count.png')"
-      :src-placeholder="$withBase('/images/excel/14-povit-count-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/14-povit-count-prev.png')"
       alt="povit value"
   />
 </div>
@@ -295,7 +295,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/22-povit-count-options.png')"
-      :src-placeholder="$withBase('/images/excel/22-povit-count-options-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/22-povit-count-options-prev.png')"
       alt="povit value"
   />
 </div>
@@ -305,7 +305,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/23-povit-count-operation.png')"
-      :src-placeholder="$withBase('/images/excel/23-povit-count-operation-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/23-povit-count-operation-prev.png')"
       alt="povit value"
   />
 </div>
@@ -321,7 +321,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/15-povit-refresh.png')"
-      :src-placeholder="$withBase('/images/excel/15-povit-refresh-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/15-povit-refresh-prev.png')"
       alt="povit refresh"
   />
 </div>
@@ -335,7 +335,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/16-povit-column.png')"
-      :src-placeholder="$withBase('/images/excel/16-povit-column-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/16-povit-column-prev.png')"
       alt="povit colunm"
   />
 </div>
@@ -343,7 +343,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/17-povit-column-result.png')"
-      :src-placeholder="$withBase('/images/excel/17-povit-column-result-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/17-povit-column-result-prev.png')"
       alt="povit result"
   />
 </div>
@@ -359,7 +359,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/18-cercle-diagramm.png')"
-      :src-placeholder="$withBase('/images/excel/18-cercle-diagramm-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/18-cercle-diagramm-prev.png')"
       alt="cercle diagramm"
   />
 </div>
@@ -369,7 +369,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/19-diagramm-info.png')"
-      :src-placeholder="$withBase('/images/excel/19-diagramm-info-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/19-diagramm-info-prev.png')"
       alt="cercle info"
   />
 </div>
@@ -379,7 +379,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/20-diagramm-config.png')"
-      :src-placeholder="$withBase('/images/excel/20-diagramm-config-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/20-diagramm-config-prev.png')"
       alt="cercle config"
   />
 </div>
@@ -389,7 +389,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 <div class="website-diagrams">
   <v-lazy-image
       :src="$withBase('/images/excel/02-excel-formula/21-diagramm-config-menu.png')"
-      :src-placeholder="$withBase('/images/excel/21-diagramm-config-menu-prev.png')"
+      :src-placeholder="$withBase('/images/excel/02-excel-formula/21-diagramm-config-menu-prev.png')"
       alt="cercle config menu"
   />
 </div>
