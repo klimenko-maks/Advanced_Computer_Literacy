@@ -411,6 +411,7 @@ redirectFrom: /posts/2024/01/16/excel-formula-2/
 4) строим простую круговую диаграмму по данной выборке.
 5) Высылаем данный файл на почту
 
+
 <script>
 import VLazyImage from 'v-lazy-image/v2/v-lazy-image.es.js';
 
