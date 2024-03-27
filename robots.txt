@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://klimenko-maks.github.io/Advanced_Computer_Literacy/sitemap.xml
